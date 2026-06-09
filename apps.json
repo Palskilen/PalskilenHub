@@ -1,0 +1,91 @@
+{
+  "categories": [
+    {
+      "id": "apps",
+      "label": "Applications",
+      "groups": [
+        {
+          "id": "browsers",
+          "label": "Browsers",
+          "items": [
+            { "id": "chrome", "name": "Google Chrome", "type": "Browser", "icon": "🌐", "url": "https://dl.google.com/chrome/install/ChromeSetup.exe" },
+            { "id": "firefox", "name": "Mozilla Firefox", "type": "Browser", "icon": "🦊", "url": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US" },
+            { "id": "brave", "name": "Brave Browser", "type": "Browser", "icon": "🦁", "url": "https://laptop-updates.brave.com/latest/winx64" }
+          ]
+        },
+        {
+          "id": "communication",
+          "label": "Communication",
+          "items": [
+            { "id": "discord", "name": "Discord", "type": "Chat", "icon": "💬", "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86" },
+            { "id": "telegram", "name": "Telegram", "type": "Messenger", "icon": "✈️", "url": "https://telegram.org/dl/desktop/win64" }
+          ]
+        },
+        {
+          "id": "media",
+          "label": "Media",
+          "items": [
+            { "id": "vlc", "name": "VLC Media Player", "type": "Video Player", "icon": "🎥", "url": "https://get.videolan.org/vlc/last/win64/vlc-3.0.21-win64.exe" },
+            { "id": "spotify", "name": "Spotify", "type": "Music", "icon": "🎵", "url": "https://download.scdn.co/SpotifySetup.exe" }
+          ]
+        },
+        {
+          "id": "utilities",
+          "label": "Utilities",
+          "items": [
+            { "id": "7zip", "name": "7-Zip", "type": "Archiver", "icon": "🗜️", "url": "https://www.7-zip.org/a/7z2407-x64.exe" },
+            { "id": "notepadpp", "name": "Notepad++", "type": "Text Editor", "icon": "📝", "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.7/npp.8.6.7.Installer.x64.exe" },
+            { "id": "winrar", "name": "WinRAR", "type": "Archiver", "icon": "📦", "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-700.exe" }
+          ]
+        },
+        {
+          "id": "dev",
+          "label": "Development",
+          "items": [
+            { "id": "vscode", "name": "Visual Studio Code", "type": "Code Editor", "icon": "💻", "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user" },
+            { "id": "git", "name": "Git", "type": "Version Control", "icon": "🌿", "url": "https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe" }
+          ]
+        },
+        {
+          "id": "gaming",
+          "label": "Gaming",
+          "items": [
+            { "id": "steam", "name": "Steam", "type": "Game Platform", "icon": "🎮", "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "label": "Languages & Runtimes",
+      "groups": [
+        {
+          "id": "runtimes",
+          "label": "Runtimes",
+          "items": [
+            { "id": "nodejs", "name": "Node.js LTS", "type": "JavaScript Runtime", "icon": "🟢", "url": "https://nodejs.org/dist/v20.17.0/node-v20.17.0-x64.msi" },
+            { "id": "python", "name": "Python 3.12", "type": "Programming Language", "icon": "🐍", "url": "https://www.python.org/ftp/python/3.12.4/python-3.12.4-amd64.exe" },
+            { "id": "dotnet", "name": ".NET SDK 8", "type": "SDK", "icon": "🔷", "url": "https://download.visualstudio.microsoft.com/download/pr/b6f19ef3-52ca-40b1-b78b-0712d3c8bf4d/e56f57b90df7de5c0cf81a60a64bdcef/dotnet-sdk-8.0.303-win-x64.exe" },
+            { "id": "java", "name": "Java JDK 21", "type": "JDK", "icon": "☕", "url": "https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe" },
+            { "id": "rust", "name": "Rust (rustup)", "type": "Programming Language", "icon": "🦀", "url": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systems",
+      "label": "Systems (ISOs)",
+      "groups": [
+        {
+          "id": "linux",
+          "label": "Linux Distros",
+          "items": [
+            { "id": "ubuntu", "name": "Ubuntu 24.04 LTS", "type": "Linux Distro", "icon": "🐧", "url": "https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso" },
+            { "id": "debian", "name": "Debian 12", "type": "Linux Distro", "icon": "🌀", "url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.6.0-amd64-netinst.iso" },
+            { "id": "arch", "name": "Arch Linux", "type": "Linux Distro", "icon": "⚡", "url": "https://geo.mirror.pkgbuild.com/iso/latest/archlinux-x86_64.iso" }
+          ]
+        }
+      ]
+    }
+  ]
+}
