@@ -122,7 +122,7 @@ function buildLanguagesSection(cat, section) {
     const body = document.createElement('div');
     body.className = 'lang-body';
 
-    if (!lang.versioned) {
+    if (!lang.versioned || lang.versioned === 'False' || lang.versioned === 'false') {
       // Pojedynczy checkbox
       const row = document.createElement('div');
       row.className = 'lang-single-row';
