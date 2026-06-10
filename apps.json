@@ -8,206 +8,1010 @@
           "id": "browsers",
           "label": "Browsers",
           "items": [
-            { "id": "chrome", "name": "Google Chrome", "type": "Browser", "icon": "🌐", "url": "https://dl.google.com/chrome/install/ChromeSetup.exe" },
-            { "id": "firefox", "name": "Mozilla Firefox", "type": "Browser", "icon": "🦊", "url": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US" },
-            { "id": "brave", "name": "Brave Browser", "type": "Browser", "icon": "🦁", "url": "https://laptop-updates.brave.com/latest/winx64" },
-            { "id": "opera", "name": "Opera", "type": "Browser", "icon": "🔴", "url": "https://net.geo.opera.com/opera/stable/windows" },
-            { "id": "operagx", "name": "Opera GX", "type": "Gaming Browser", "icon": "🎮", "url": "https://net.geo.opera.com/opera_gx/stable/windows" },
-            { "id": "vivaldi", "name": "Vivaldi", "type": "Browser", "icon": "🎵", "url": "https://downloads.vivaldi.com/stable/Vivaldi.6.7.3329.35.x64.exe" },
-            { "id": "edge", "name": "Microsoft Edge", "type": "Browser", "icon": "🌊", "url": "https://go.microsoft.com/fwlink/?linkid=2108834&Channel=Stable&language=en&brand=M100" },
-            { "id": "tor", "name": "Tor Browser", "type": "Privacy Browser", "icon": "🧅", "url": "https://www.torproject.org/dist/torbrowser/13.0.15/torbrowser-install-win64-13.0.15_ALL.exe" },
-            { "id": "zen", "name": "Zen Browser", "type": "Browser", "icon": "🧘", "url": "https://github.com/zen-browser/desktop/releases/latest/download/zen.installer.exe" }
+            {
+              "id": "chrome",
+              "name": "Google Chrome",
+              "type": "Browser",
+              "icon": "🌐",
+              "url": "https://dl.google.com/chrome/install/ChromeSetup.exe"
+            },
+            {
+              "id": "firefox",
+              "name": "Mozilla Firefox",
+              "type": "Browser",
+              "icon": "🦊",
+              "url": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US"
+            },
+            {
+              "id": "brave",
+              "name": "Brave Browser",
+              "type": "Browser",
+              "icon": "🦁",
+              "url": "https://laptop-updates.brave.com/latest/winx64"
+            },
+            {
+              "id": "opera",
+              "name": "Opera",
+              "type": "Browser",
+              "icon": "🔴",
+              "url": "https://net.geo.opera.com/opera/stable/windows"
+            },
+            {
+              "id": "operagx",
+              "name": "Opera GX",
+              "type": "Gaming Browser",
+              "icon": "🎮",
+              "url": "https://net.geo.opera.com/opera_gx/stable/windows"
+            },
+            {
+              "id": "vivaldi",
+              "name": "Vivaldi",
+              "type": "Browser",
+              "icon": "🎵",
+              "url": "https://downloads.vivaldi.com/stable/Vivaldi.6.7.3329.35.x64.exe"
+            },
+            {
+              "id": "edge",
+              "name": "Microsoft Edge",
+              "type": "Browser",
+              "icon": "🌊",
+              "url": "https://go.microsoft.com/fwlink/?linkid=2108834&Channel=Stable&language=en&brand=M100"
+            },
+            {
+              "id": "tor",
+              "name": "Tor Browser",
+              "type": "Privacy Browser",
+              "icon": "🧅",
+              "url": "https://www.torproject.org/dist/torbrowser/13.0.15/torbrowser-install-win64-13.0.15_ALL.exe"
+            },
+            {
+              "id": "zen",
+              "name": "Zen Browser",
+              "type": "Browser",
+              "icon": "🧘",
+              "url": "https://github.com/zen-browser/desktop/releases/latest/download/zen.installer.exe"
+            }
           ]
         },
         {
           "id": "communication",
           "label": "Communication",
           "items": [
-            { "id": "discord", "name": "Discord", "type": "Chat", "icon": "💬", "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86" },
-            { "id": "telegram", "name": "Telegram", "type": "Messenger", "icon": "✈️", "url": "https://telegram.org/dl/desktop/win64" },
-            { "id": "signal", "name": "Signal", "type": "Messenger", "icon": "🔒", "url": "https://updates.signal.org/desktop/installers/signal-desktop-win-x64-7.17.0.exe" },
-            { "id": "slack", "name": "Slack", "type": "Team Chat", "icon": "💼", "url": "https://slack.com/intl/en-us/downloads/instructions/windows" },
-            { "id": "teams", "name": "Microsoft Teams", "type": "Team Chat", "icon": "🟣", "url": "https://go.microsoft.com/fwlink/p/?linkid=2187327" },
-            { "id": "zoom", "name": "Zoom", "type": "Video Calls", "icon": "📹", "url": "https://zoom.us/client/latest/ZoomInstaller.exe" },
-            { "id": "whatsapp", "name": "WhatsApp", "type": "Messenger", "icon": "📱", "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe" },
-            { "id": "teamspeak", "name": "TeamSpeak 5", "type": "Voice Chat", "icon": "🎙️", "url": "https://files.teamspeak-services.com/pre_releases/client/5.0.0-beta77/teamspeak-client.exe" },
-            { "id": "messenger", "name": "Messenger (Facebook)", "type": "Messenger", "icon": "💙", "url": "https://www.messenger.com/desktop/mac/direct-download/" },
-            { "id": "viber", "name": "Viber", "type": "Messenger", "icon": "💜", "url": "https://download.viber.com/desktop/latest/ViberSetup.exe" },
-            { "id": "skype", "name": "Skype", "type": "Video Calls", "icon": "🔵", "url": "https://go.skype.com/windows.desktop.download" },
-            { "id": "anydesk", "name": "AnyDesk", "type": "Remote Desktop", "icon": "🖥️", "url": "https://download.anydesk.com/AnyDesk.exe" },
-            { "id": "teamviewer", "name": "TeamViewer", "type": "Remote Desktop", "icon": "📡", "url": "https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe" }
+            {
+              "id": "discord",
+              "name": "Discord",
+              "type": "Chat",
+              "icon": "💬",
+              "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86"
+            },
+            {
+              "id": "telegram",
+              "name": "Telegram",
+              "type": "Messenger",
+              "icon": "✈️",
+              "url": "https://telegram.org/dl/desktop/win64"
+            },
+            {
+              "id": "signal",
+              "name": "Signal",
+              "type": "Messenger",
+              "icon": "🔒",
+              "url": "https://updates.signal.org/desktop/installers/signal-desktop-win-x64-7.17.0.exe"
+            },
+            {
+              "id": "slack",
+              "name": "Slack",
+              "type": "Team Chat",
+              "icon": "💼",
+              "url": "https://slack.com/intl/en-us/downloads/instructions/windows"
+            },
+            {
+              "id": "teams",
+              "name": "Microsoft Teams",
+              "type": "Team Chat",
+              "icon": "🟣",
+              "url": "https://go.microsoft.com/fwlink/p/?linkid=2187327"
+            },
+            {
+              "id": "zoom",
+              "name": "Zoom",
+              "type": "Video Calls",
+              "icon": "📹",
+              "url": "https://zoom.us/client/latest/ZoomInstaller.exe"
+            },
+            {
+              "id": "whatsapp",
+              "name": "WhatsApp",
+              "type": "Messenger",
+              "icon": "📱",
+              "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe"
+            },
+            {
+              "id": "teamspeak",
+              "name": "TeamSpeak 5",
+              "type": "Voice Chat",
+              "icon": "🎙️",
+              "url": "https://files.teamspeak-services.com/pre_releases/client/5.0.0-beta77/teamspeak-client.exe"
+            },
+            {
+              "id": "messenger",
+              "name": "Messenger (Facebook)",
+              "type": "Messenger",
+              "icon": "💙",
+              "url": "https://www.messenger.com/desktop/mac/direct-download/"
+            },
+            {
+              "id": "viber",
+              "name": "Viber",
+              "type": "Messenger",
+              "icon": "💜",
+              "url": "https://download.viber.com/desktop/latest/ViberSetup.exe"
+            },
+            {
+              "id": "skype",
+              "name": "Skype",
+              "type": "Video Calls",
+              "icon": "🔵",
+              "url": "https://go.skype.com/windows.desktop.download"
+            },
+            {
+              "id": "anydesk",
+              "name": "AnyDesk",
+              "type": "Remote Desktop",
+              "icon": "🖥️",
+              "url": "https://download.anydesk.com/AnyDesk.exe"
+            },
+            {
+              "id": "teamviewer",
+              "name": "TeamViewer",
+              "type": "Remote Desktop",
+              "icon": "📡",
+              "url": "https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe"
+            }
           ]
         },
         {
           "id": "gaming",
           "label": "Game Launchers & Platforms",
           "items": [
-            { "id": "steam", "name": "Steam", "type": "Game Platform", "icon": "🎮", "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe" },
-            { "id": "epicgames", "name": "Epic Games Launcher", "type": "Game Platform", "icon": "⚫", "url": "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi" },
-            { "id": "gogalaxy", "name": "GOG Galaxy", "type": "Game Platform", "icon": "🌌", "url": "https://webinstallers.gog-statics.com/download/GOG_Galaxy_2.0.exe" },
-            { "id": "ubisoftconnect", "name": "Ubisoft Connect", "type": "Game Platform", "icon": "🔷", "url": "https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UbisoftConnectInstaller.exe" },
-            { "id": "eaapp", "name": "EA App", "type": "Game Platform", "icon": "🟡", "url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe" },
-            { "id": "battlenet", "name": "Battle.net", "type": "Game Platform", "icon": "💙", "url": "https://www.battle.net/download/getInstallerForGame?os=win&locale=enUS&version=LIVE&gameProgram=BATTLENET_APP" },
-            { "id": "playnite", "name": "Playnite", "type": "Game Library", "icon": "📚", "url": "https://github.com/JosefNemec/Playnite/releases/latest/download/Playnite11_setup.exe" },
-            { "id": "itchio", "name": "itch.io", "type": "Indie Games", "icon": "🕹️", "url": "https://itch.io/app/download?platform=windows" },
-            { "id": "wemod", "name": "WeMod", "type": "Game Trainer / Cheats", "icon": "🎯", "url": "https://api.wemod.com/client/download" }
+            {
+              "id": "steam",
+              "name": "Steam",
+              "type": "Game Platform",
+              "icon": "🎮",
+              "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
+            },
+            {
+              "id": "epicgames",
+              "name": "Epic Games Launcher",
+              "type": "Game Platform",
+              "icon": "⚫",
+              "url": "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi"
+            },
+            {
+              "id": "gogalaxy",
+              "name": "GOG Galaxy",
+              "type": "Game Platform",
+              "icon": "🌌",
+              "url": "https://webinstallers.gog-statics.com/download/GOG_Galaxy_2.0.exe"
+            },
+            {
+              "id": "ubisoftconnect",
+              "name": "Ubisoft Connect",
+              "type": "Game Platform",
+              "icon": "🔷",
+              "url": "https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UbisoftConnectInstaller.exe"
+            },
+            {
+              "id": "eaapp",
+              "name": "EA App",
+              "type": "Game Platform",
+              "icon": "🟡",
+              "url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
+            },
+            {
+              "id": "battlenet",
+              "name": "Battle.net",
+              "type": "Game Platform",
+              "icon": "💙",
+              "url": "https://www.battle.net/download/getInstallerForGame?os=win&locale=enUS&version=LIVE&gameProgram=BATTLENET_APP"
+            },
+            {
+              "id": "playnite",
+              "name": "Playnite",
+              "type": "Game Library",
+              "icon": "📚",
+              "url": "https://github.com/JosefNemec/Playnite/releases/latest/download/Playnite11_setup.exe"
+            },
+            {
+              "id": "itchio",
+              "name": "itch.io",
+              "type": "Indie Games",
+              "icon": "🕹️",
+              "url": "https://itch.io/app/download?platform=windows"
+            },
+            {
+              "id": "wemod",
+              "name": "WeMod",
+              "type": "Game Trainer / Cheats",
+              "icon": "🎯",
+              "url": "https://api.wemod.com/client/download"
+            }
           ]
         },
         {
           "id": "minecraft",
           "label": "Minecraft Launchers",
           "items": [
-            { "id": "mcofficial", "name": "Minecraft Launcher (Official)", "type": "MC Launcher", "icon": "⛏️", "url": "https://launcher.mojang.com/download/MinecraftInstaller.exe" },
-            { "id": "prism", "name": "Prism Launcher", "type": "MC Launcher", "icon": "🔷", "url": "https://github.com/PrismLauncher/PrismLauncher/releases/latest/download/PrismLauncher-Windows-MSVC-Setup-8.4.exe" },
-            { "id": "modrinth", "name": "Modrinth App", "type": "MC Launcher & Mods", "icon": "🟢", "url": "https://launcher.modrinth.com/modrinth-app-setup.exe" },
-            { "id": "curseforge", "name": "CurseForge", "type": "MC Mods Manager", "icon": "🔥", "url": "https://curseforge.overwolf.com/CurseForge.exe" },
-            { "id": "tlauncher", "name": "TLauncher", "type": "MC Launcher", "icon": "🌐", "url": "https://tlauncher.org/installer" },
-            { "id": "sklauncher", "name": "SKLauncher", "type": "MC Launcher (Free)", "icon": "🟠", "url": "https://skmedix.pl/sklauncher" },
-            { "id": "feather", "name": "Feather Client", "type": "MC Launcher (PvP)", "icon": "🪶", "url": "https://feathermc.com/download" },
-            { "id": "lunar", "name": "Lunar Client", "type": "MC Launcher (PvP)", "icon": "🌙", "url": "https://launcherupdates.lunarclientcdn.com/Lunar%20Client%20Setup-3.2.3.exe" },
-            { "id": "badlion", "name": "Badlion Client", "type": "MC Launcher (PvP)", "icon": "🦁", "url": "https://client.badlion.net/Badlion%20Client.exe" },
-            { "id": "crystal", "name": "Crystal Launcher", "type": "MC Launcher (Free)", "icon": "💎", "url": "https://crystal-launcher.net/download/" },
-            { "id": "pvplounge", "name": "PVP Lounge", "type": "MC Launcher (PvP)", "icon": "⚔️", "url": "https://www.pvplounge.com/download" }
+            {
+              "id": "mcofficial",
+              "name": "Minecraft Launcher (Official)",
+              "type": "MC Launcher",
+              "icon": "⛏️",
+              "url": "https://launcher.mojang.com/download/MinecraftInstaller.exe"
+            },
+            {
+              "id": "prism",
+              "name": "Prism Launcher",
+              "type": "MC Launcher",
+              "icon": "🔷",
+              "url": "https://github.com/PrismLauncher/PrismLauncher/releases/latest/download/PrismLauncher-Windows-MSVC-Setup-8.4.exe"
+            },
+            {
+              "id": "modrinth",
+              "name": "Modrinth App",
+              "type": "MC Launcher & Mods",
+              "icon": "🟢",
+              "url": "https://launcher.modrinth.com/modrinth-app-setup.exe"
+            },
+            {
+              "id": "curseforge",
+              "name": "CurseForge",
+              "type": "MC Mods Manager",
+              "icon": "🔥",
+              "url": "https://curseforge.overwolf.com/CurseForge.exe"
+            },
+            {
+              "id": "tlauncher",
+              "name": "TLauncher",
+              "type": "MC Launcher",
+              "icon": "🌐",
+              "url": "https://tlauncher.org/installer"
+            },
+            {
+              "id": "sklauncher",
+              "name": "SKLauncher",
+              "type": "MC Launcher (Free)",
+              "icon": "🟠",
+              "url": "https://skmedix.pl/sklauncher"
+            },
+            {
+              "id": "feather",
+              "name": "Feather Client",
+              "type": "MC Launcher (PvP)",
+              "icon": "🪶",
+              "url": "https://feathermc.com/download"
+            },
+            {
+              "id": "lunar",
+              "name": "Lunar Client",
+              "type": "MC Launcher (PvP)",
+              "icon": "🌙",
+              "url": "https://launcherupdates.lunarclientcdn.com/Lunar%20Client%20Setup-3.2.3.exe"
+            },
+            {
+              "id": "badlion",
+              "name": "Badlion Client",
+              "type": "MC Launcher (PvP)",
+              "icon": "🦁",
+              "url": "https://client.badlion.net/Badlion%20Client.exe"
+            },
+            {
+              "id": "crystal",
+              "name": "Crystal Launcher",
+              "type": "MC Launcher (Free)",
+              "icon": "💎",
+              "url": "https://crystal-launcher.net/download/"
+            },
+            {
+              "id": "pvplounge",
+              "name": "PVP Lounge",
+              "type": "MC Launcher (PvP)",
+              "icon": "⚔️",
+              "url": "https://www.pvplounge.com/download"
+            }
           ]
         },
         {
           "id": "moddingtools",
           "label": "Modding Tools",
           "items": [
-            { "id": "thunderstore", "name": "Thunderstore Mod Manager", "type": "Mod Manager", "icon": "⚡", "url": "https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager" },
-            { "id": "overwolf", "name": "Overwolf", "type": "Gaming Overlay", "icon": "🐺", "url": "https://download.overwolf.com/install/Download" }
+            {
+              "id": "thunderstore",
+              "name": "Thunderstore Mod Manager",
+              "type": "Mod Manager",
+              "icon": "⚡",
+              "url": "https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager"
+            },
+            {
+              "id": "overwolf",
+              "name": "Overwolf",
+              "type": "Gaming Overlay",
+              "icon": "🐺",
+              "url": "https://download.overwolf.com/install/Download"
+            }
           ]
         },
         {
           "id": "media",
           "label": "Media",
           "items": [
-            { "id": "vlc", "name": "VLC Media Player", "type": "Video Player", "icon": "🎥", "url": "https://get.videolan.org/vlc/last/win64/vlc-3.0.21-win64.exe" },
-            { "id": "spotify", "name": "Spotify", "type": "Music", "icon": "🎵", "url": "https://download.scdn.co/SpotifySetup.exe" },
-            { "id": "mpc", "name": "MPC-HC", "type": "Video Player", "icon": "▶️", "url": "https://github.com/clsid2/mpc-hc/releases/latest/download/MPC-HC.2.3.3.x64.exe" },
-            { "id": "mpv", "name": "mpv", "type": "Video Player", "icon": "🎬", "url": "https://sourceforge.net/projects/mpv-player-windows/files/latest/download" },
-            { "id": "potplayer", "name": "PotPlayer", "type": "Video Player", "icon": "🎞️", "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe" },
-            { "id": "foobar2000", "name": "foobar2000", "type": "Music Player", "icon": "🎧", "url": "https://www.foobar2000.org/files/foobar2000_v2.1.4.exe" },
-            { "id": "aimp", "name": "AIMP", "type": "Music Player", "icon": "🎼", "url": "https://www.aimp.ru/files/windows/builds/aimp_5.30_build_2530.exe" },
-            { "id": "obs", "name": "OBS Studio", "type": "Screen Recorder", "icon": "🔴", "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.2-Windows-Installer.exe" },
-            { "id": "handbrake", "name": "HandBrake", "type": "Video Converter", "icon": "🔧", "url": "https://github.com/HandBrake/HandBrake/releases/latest/download/HandBrake-1.8.2-x86_64-Win_GUI.exe" },
-            { "id": "audacity", "name": "Audacity", "type": "Audio Editor", "icon": "🎚️", "url": "https://github.com/audacity/audacity/releases/latest/download/audacity-win-3.6.4-x64.exe" },
-            { "id": "kdenlive", "name": "Kdenlive", "type": "Video Editor", "icon": "🎬", "url": "https://download.kde.org/stable/kdenlive/24.05/kdenlive-24.05.2-windows-x86_64.exe" },
-            { "id": "davinci", "name": "DaVinci Resolve", "type": "Video Editor", "icon": "🎞️", "url": "https://www.blackmagicdesign.com/products/davinciresolve" },
-            { "id": "losslesscut", "name": "LosslessCut", "type": "Video Cutter", "icon": "✂️", "url": "https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.exe" }
+            {
+              "id": "vlc",
+              "name": "VLC Media Player",
+              "type": "Video Player",
+              "icon": "🎥",
+              "url": "https://get.videolan.org/vlc/last/win64/vlc-3.0.21-win64.exe"
+            },
+            {
+              "id": "spotify",
+              "name": "Spotify",
+              "type": "Music",
+              "icon": "🎵",
+              "url": "https://download.scdn.co/SpotifySetup.exe"
+            },
+            {
+              "id": "mpc",
+              "name": "MPC-HC",
+              "type": "Video Player",
+              "icon": "▶️",
+              "url": "https://github.com/clsid2/mpc-hc/releases/latest/download/MPC-HC.2.3.3.x64.exe"
+            },
+            {
+              "id": "mpv",
+              "name": "mpv",
+              "type": "Video Player",
+              "icon": "🎬",
+              "url": "https://sourceforge.net/projects/mpv-player-windows/files/latest/download"
+            },
+            {
+              "id": "potplayer",
+              "name": "PotPlayer",
+              "type": "Video Player",
+              "icon": "🎞️",
+              "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe"
+            },
+            {
+              "id": "foobar2000",
+              "name": "foobar2000",
+              "type": "Music Player",
+              "icon": "🎧",
+              "url": "https://www.foobar2000.org/files/foobar2000_v2.1.4.exe"
+            },
+            {
+              "id": "aimp",
+              "name": "AIMP",
+              "type": "Music Player",
+              "icon": "🎼",
+              "url": "https://www.aimp.ru/files/windows/builds/aimp_5.30_build_2530.exe"
+            },
+            {
+              "id": "obs",
+              "name": "OBS Studio",
+              "type": "Screen Recorder",
+              "icon": "🔴",
+              "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.2-Windows-Installer.exe"
+            },
+            {
+              "id": "handbrake",
+              "name": "HandBrake",
+              "type": "Video Converter",
+              "icon": "🔧",
+              "url": "https://github.com/HandBrake/HandBrake/releases/latest/download/HandBrake-1.8.2-x86_64-Win_GUI.exe"
+            },
+            {
+              "id": "audacity",
+              "name": "Audacity",
+              "type": "Audio Editor",
+              "icon": "🎚️",
+              "url": "https://github.com/audacity/audacity/releases/latest/download/audacity-win-3.6.4-x64.exe"
+            },
+            {
+              "id": "kdenlive",
+              "name": "Kdenlive",
+              "type": "Video Editor",
+              "icon": "🎬",
+              "url": "https://download.kde.org/stable/kdenlive/24.05/kdenlive-24.05.2-windows-x86_64.exe"
+            },
+            {
+              "id": "davinci",
+              "name": "DaVinci Resolve",
+              "type": "Video Editor",
+              "icon": "🎞️",
+              "url": "https://www.blackmagicdesign.com/products/davinciresolve"
+            },
+            {
+              "id": "losslesscut",
+              "name": "LosslessCut",
+              "type": "Video Cutter",
+              "icon": "✂️",
+              "url": "https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.exe"
+            }
           ]
         },
         {
           "id": "dev",
           "label": "Development — Editors & IDEs",
           "items": [
-            { "id": "vscode", "name": "Visual Studio Code", "type": "Code Editor", "icon": "💻", "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user" },
-            { "id": "vscodium", "name": "VSCodium", "type": "Code Editor (FOSS)", "icon": "🟦", "url": "https://github.com/VSCodium/vscodium/releases/latest/download/VSCodiumSetup-x64-1.91.1.24193.exe" },
-            { "id": "visualstudio", "name": "Visual Studio 2022 Community", "type": "IDE", "icon": "🔵", "url": "https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022" },
-            { "id": "intellij", "name": "IntelliJ IDEA Community", "type": "IDE (Java/Kotlin)", "icon": "🧠", "url": "https://download.jetbrains.com/idea/ideaIC-2024.1.4.exe" },
-            { "id": "pycharm", "name": "PyCharm Community", "type": "IDE (Python)", "icon": "🐍", "url": "https://download.jetbrains.com/python/pycharm-community-2024.1.4.exe" },
-            { "id": "rider", "name": "Rider", "type": "IDE (C#/.NET)", "icon": "🏇", "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1.4.exe" },
-            { "id": "clion", "name": "CLion", "type": "IDE (C/C++)", "icon": "🔩", "url": "https://download.jetbrains.com/cpp/CLion-2024.1.4.exe" },
-            { "id": "webstorm", "name": "WebStorm", "type": "IDE (Web)", "icon": "🌐", "url": "https://download.jetbrains.com/webstorm/WebStorm-2024.1.4.exe" },
-            { "id": "neovim", "name": "Neovim", "type": "Text Editor", "icon": "🟢", "url": "https://github.com/neovim/neovim/releases/latest/download/nvim-win64.msi" },
-            { "id": "notepadpp", "name": "Notepad++", "type": "Text Editor", "icon": "📝", "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.7/npp.8.6.7.Installer.x64.exe" },
-            { "id": "sublimetext", "name": "Sublime Text", "type": "Text Editor", "icon": "🟠", "url": "https://download.sublimetext.com/sublime_text_build_4180_x64_setup.exe" },
-            { "id": "cursor", "name": "Cursor", "type": "AI Code Editor", "icon": "🤖", "url": "https://download.cursor.sh/windows/nsis/x64" },
-            { "id": "zed", "name": "Zed", "type": "Code Editor", "icon": "⚡", "url": "https://zed.dev/api/releases/stable/latest/Zed.exe" }
+            {
+              "id": "vscode",
+              "name": "Visual Studio Code",
+              "type": "Code Editor",
+              "icon": "💻",
+              "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
+            },
+            {
+              "id": "vscodium",
+              "name": "VSCodium",
+              "type": "Code Editor (FOSS)",
+              "icon": "🟦",
+              "url": "https://github.com/VSCodium/vscodium/releases/latest/download/VSCodiumSetup-x64-1.91.1.24193.exe"
+            },
+            {
+              "id": "visualstudio",
+              "name": "Visual Studio 2022 Community",
+              "type": "IDE",
+              "icon": "🔵",
+              "url": "https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022"
+            },
+            {
+              "id": "intellij",
+              "name": "IntelliJ IDEA Community",
+              "type": "IDE (Java/Kotlin)",
+              "icon": "🧠",
+              "url": "https://download.jetbrains.com/idea/ideaIC-2024.1.4.exe"
+            },
+            {
+              "id": "pycharm",
+              "name": "PyCharm Community",
+              "type": "IDE (Python)",
+              "icon": "🐍",
+              "url": "https://download.jetbrains.com/python/pycharm-community-2024.1.4.exe"
+            },
+            {
+              "id": "rider",
+              "name": "Rider",
+              "type": "IDE (C#/.NET)",
+              "icon": "🏇",
+              "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1.4.exe"
+            },
+            {
+              "id": "clion",
+              "name": "CLion",
+              "type": "IDE (C/C++)",
+              "icon": "🔩",
+              "url": "https://download.jetbrains.com/cpp/CLion-2024.1.4.exe"
+            },
+            {
+              "id": "webstorm",
+              "name": "WebStorm",
+              "type": "IDE (Web)",
+              "icon": "🌐",
+              "url": "https://download.jetbrains.com/webstorm/WebStorm-2024.1.4.exe"
+            },
+            {
+              "id": "neovim",
+              "name": "Neovim",
+              "type": "Text Editor",
+              "icon": "🟢",
+              "url": "https://github.com/neovim/neovim/releases/latest/download/nvim-win64.msi"
+            },
+            {
+              "id": "notepadpp",
+              "name": "Notepad++",
+              "type": "Text Editor",
+              "icon": "📝",
+              "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.7/npp.8.6.7.Installer.x64.exe"
+            },
+            {
+              "id": "sublimetext",
+              "name": "Sublime Text",
+              "type": "Text Editor",
+              "icon": "🟠",
+              "url": "https://download.sublimetext.com/sublime_text_build_4180_x64_setup.exe"
+            },
+            {
+              "id": "cursor",
+              "name": "Cursor",
+              "type": "AI Code Editor",
+              "icon": "🤖",
+              "url": "https://download.cursor.sh/windows/nsis/x64"
+            },
+            {
+              "id": "zed",
+              "name": "Zed",
+              "type": "Code Editor",
+              "icon": "⚡",
+              "url": "https://zed.dev/api/releases/stable/latest/Zed.exe"
+            }
           ]
         },
         {
           "id": "devtools",
           "label": "Development — Tools",
           "items": [
-            { "id": "git", "name": "Git", "type": "Version Control", "icon": "🌿", "url": "https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe" },
-            { "id": "github-desktop", "name": "GitHub Desktop", "type": "Git GUI", "icon": "🐙", "url": "https://central.github.com/deployments/desktop/desktop/latest/win32" },
-            { "id": "gitkraken", "name": "GitKraken", "type": "Git GUI", "icon": "🐙", "url": "https://release.axocdn.com/win64/GitKrakenSetup.exe" },
-            { "id": "postman", "name": "Postman", "type": "API Testing", "icon": "📬", "url": "https://dl.pstmn.io/download/latest/win64" },
-            { "id": "insomnia", "name": "Insomnia", "type": "API Testing", "icon": "😴", "url": "https://github.com/Kong/insomnia/releases/latest/download/Insomnia.Setup.exe" },
-            { "id": "docker", "name": "Docker Desktop", "type": "Containers", "icon": "🐳", "url": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe" },
-            { "id": "windowsterminal", "name": "Windows Terminal", "type": "Terminal", "icon": "🖥️", "url": "https://github.com/microsoft/terminal/releases/latest/download/Microsoft.WindowsTerminal_Win11_1.20.11781.0_8wekyb3d8bbwe.msixbundle" },
-            { "id": "putty", "name": "PuTTY", "type": "SSH Client", "icon": "🔌", "url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi" }
+            {
+              "id": "git",
+              "name": "Git",
+              "type": "Version Control",
+              "icon": "🌿",
+              "url": "https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe"
+            },
+            {
+              "id": "github-desktop",
+              "name": "GitHub Desktop",
+              "type": "Git GUI",
+              "icon": "🐙",
+              "url": "https://central.github.com/deployments/desktop/desktop/latest/win32"
+            },
+            {
+              "id": "gitkraken",
+              "name": "GitKraken",
+              "type": "Git GUI",
+              "icon": "🐙",
+              "url": "https://release.axocdn.com/win64/GitKrakenSetup.exe"
+            },
+            {
+              "id": "postman",
+              "name": "Postman",
+              "type": "API Testing",
+              "icon": "📬",
+              "url": "https://dl.pstmn.io/download/latest/win64"
+            },
+            {
+              "id": "insomnia",
+              "name": "Insomnia",
+              "type": "API Testing",
+              "icon": "😴",
+              "url": "https://github.com/Kong/insomnia/releases/latest/download/Insomnia.Setup.exe"
+            },
+            {
+              "id": "docker",
+              "name": "Docker Desktop",
+              "type": "Containers",
+              "icon": "🐳",
+              "url": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe"
+            },
+            {
+              "id": "windowsterminal",
+              "name": "Windows Terminal",
+              "type": "Terminal",
+              "icon": "🖥️",
+              "url": "https://github.com/microsoft/terminal/releases/latest/download/Microsoft.WindowsTerminal_Win11_1.20.11781.0_8wekyb3d8bbwe.msixbundle"
+            },
+            {
+              "id": "putty",
+              "name": "PuTTY",
+              "type": "SSH Client",
+              "icon": "🔌",
+              "url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi"
+            }
           ]
         },
         {
           "id": "utilities",
           "label": "Utilities",
           "items": [
-            { "id": "7zip", "name": "7-Zip", "type": "Archiver", "icon": "🗜️", "url": "https://www.7-zip.org/a/7z2407-x64.exe" },
-            { "id": "winrar", "name": "WinRAR", "type": "Archiver", "icon": "📦", "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-700.exe" },
-            { "id": "nanazip", "name": "NanaZip", "type": "Archiver", "icon": "📁", "url": "https://github.com/M2Team/NanaZip/releases/latest/download/NanaZip.exe" },
-            { "id": "revouninstaller", "name": "Revo Uninstaller", "type": "Uninstaller", "icon": "🗑️", "url": "https://download.revouninstaller.com/download/revosetup.exe" },
-            { "id": "bcuninstaller", "name": "Bulk Crap Uninstaller", "type": "Uninstaller", "icon": "🧹", "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/latest/download/BCUninstaller_setup.exe" },
-            { "id": "crystaldiskinfo", "name": "CrystalDiskInfo", "type": "Disk Health", "icon": "💿", "url": "https://osdn.net/dl/crystaldiskinfo/CrystalDiskInfo9_3_2.exe" },
-            { "id": "hwinfo", "name": "HWiNFO", "type": "System Info", "icon": "📊", "url": "https://www.hwinfo.com/files/hwi_800.exe" },
-            { "id": "cpuz", "name": "CPU-Z", "type": "CPU Info", "icon": "🔬", "url": "https://download.cpuid.com/cpu-z/cpu-z_2.11-en.exe" },
-            { "id": "gpuz", "name": "GPU-Z", "type": "GPU Info", "icon": "🖥️", "url": "https://download.techpowerup.com/GPU-Z.2.59.0.exe" },
-            { "id": "msiafterburner", "name": "MSI Afterburner", "type": "GPU Overclocking", "icon": "🔥", "url": "https://download.msi.com/uti_exe//vga/MSIAfterburnerSetup.exe" },
-            { "id": "autohotkey", "name": "AutoHotkey", "type": "Automation", "icon": "🤖", "url": "https://www.autohotkey.com/download/ahk-v2.exe" },
-            { "id": "powertoys", "name": "PowerToys", "type": "Windows Tools", "icon": "🔧", "url": "https://github.com/microsoft/PowerToys/releases/latest/download/PowerToysSetup-0.86.0-x64.exe" },
-            { "id": "windhawk", "name": "Windhawk", "type": "Windows Mods", "icon": "🦅", "url": "https://windhawk.net/download" },
-            { "id": "eartrumpet", "name": "EarTrumpet", "type": "Volume Control", "icon": "🔊", "url": "https://github.com/File-New-Project/EarTrumpet/releases/latest/download/EarTrumpet.exe" },
-            { "id": "rainmeter", "name": "Rainmeter", "type": "Desktop Customization", "icon": "🌧️", "url": "https://github.com/rainmeter/rainmeter/releases/latest/download/Rainmeter-4.5.18.exe" },
-            { "id": "flux", "name": "f.lux", "type": "Eye Comfort", "icon": "🌅", "url": "https://justgetflux.com/dlwin.html" },
-            { "id": "sharex", "name": "ShareX", "type": "Screenshot Tool", "icon": "📸", "url": "https://github.com/ShareX/ShareX/releases/latest/download/ShareX-16.1.0-setup.exe" },
-            { "id": "greenshot", "name": "Greenshot", "type": "Screenshot Tool", "icon": "📷", "url": "https://github.com/greenshot/greenshot/releases/latest/download/Greenshot-RELEASE-1.3.274.exe" },
-            { "id": "ditto", "name": "Ditto Clipboard", "type": "Clipboard Manager", "icon": "📋", "url": "https://sourceforge.net/projects/ditto-cp/files/latest/download" },
-            { "id": "everything", "name": "Everything", "type": "File Search", "icon": "🔍", "url": "https://www.voidtools.com/Everything-1.4.1.1026.x64-Setup.exe" },
-            { "id": "treesizefree", "name": "TreeSize Free", "type": "Disk Usage Analyzer", "icon": "🌳", "url": "https://www.jam-software.com/customers/downloadTrial.php?article_no=80&language=EN" },
-            { "id": "winscp", "name": "WinSCP", "type": "FTP/SFTP Client", "icon": "🚢", "url": "https://winscp.net/download/WinSCP-6.3.4-Setup.exe" },
-            { "id": "filezilla", "name": "FileZilla", "type": "FTP Client", "icon": "📡", "url": "https://download.filezilla-project.org/client/FileZilla_3.67.1_win64-setup.exe" }
+            {
+              "id": "7zip",
+              "name": "7-Zip",
+              "type": "Archiver",
+              "icon": "🗜️",
+              "url": "https://www.7-zip.org/a/7z2407-x64.exe"
+            },
+            {
+              "id": "winrar",
+              "name": "WinRAR",
+              "type": "Archiver",
+              "icon": "📦",
+              "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-700.exe"
+            },
+            {
+              "id": "nanazip",
+              "name": "NanaZip",
+              "type": "Archiver",
+              "icon": "📁",
+              "url": "https://github.com/M2Team/NanaZip/releases/latest/download/NanaZip.exe"
+            },
+            {
+              "id": "revouninstaller",
+              "name": "Revo Uninstaller",
+              "type": "Uninstaller",
+              "icon": "🗑️",
+              "url": "https://download.revouninstaller.com/download/revosetup.exe"
+            },
+            {
+              "id": "bcuninstaller",
+              "name": "Bulk Crap Uninstaller",
+              "type": "Uninstaller",
+              "icon": "🧹",
+              "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/latest/download/BCUninstaller_setup.exe"
+            },
+            {
+              "id": "crystaldiskinfo",
+              "name": "CrystalDiskInfo",
+              "type": "Disk Health",
+              "icon": "💿",
+              "url": "https://osdn.net/dl/crystaldiskinfo/CrystalDiskInfo9_3_2.exe"
+            },
+            {
+              "id": "hwinfo",
+              "name": "HWiNFO",
+              "type": "System Info",
+              "icon": "📊",
+              "url": "https://www.hwinfo.com/files/hwi_800.exe"
+            },
+            {
+              "id": "cpuz",
+              "name": "CPU-Z",
+              "type": "CPU Info",
+              "icon": "🔬",
+              "url": "https://download.cpuid.com/cpu-z/cpu-z_2.11-en.exe"
+            },
+            {
+              "id": "gpuz",
+              "name": "GPU-Z",
+              "type": "GPU Info",
+              "icon": "🖥️",
+              "url": "https://download.techpowerup.com/GPU-Z.2.59.0.exe"
+            },
+            {
+              "id": "msiafterburner",
+              "name": "MSI Afterburner",
+              "type": "GPU Overclocking",
+              "icon": "🔥",
+              "url": "https://download.msi.com/uti_exe//vga/MSIAfterburnerSetup.exe"
+            },
+            {
+              "id": "autohotkey",
+              "name": "AutoHotkey",
+              "type": "Automation",
+              "icon": "🤖",
+              "url": "https://www.autohotkey.com/download/ahk-v2.exe"
+            },
+            {
+              "id": "powertoys",
+              "name": "PowerToys",
+              "type": "Windows Tools",
+              "icon": "🔧",
+              "url": "https://github.com/microsoft/PowerToys/releases/latest/download/PowerToysSetup-0.86.0-x64.exe"
+            },
+            {
+              "id": "windhawk",
+              "name": "Windhawk",
+              "type": "Windows Mods",
+              "icon": "🦅",
+              "url": "https://windhawk.net/download"
+            },
+            {
+              "id": "eartrumpet",
+              "name": "EarTrumpet",
+              "type": "Volume Control",
+              "icon": "🔊",
+              "url": "https://github.com/File-New-Project/EarTrumpet/releases/latest/download/EarTrumpet.exe"
+            },
+            {
+              "id": "rainmeter",
+              "name": "Rainmeter",
+              "type": "Desktop Customization",
+              "icon": "🌧️",
+              "url": "https://github.com/rainmeter/rainmeter/releases/latest/download/Rainmeter-4.5.18.exe"
+            },
+            {
+              "id": "flux",
+              "name": "f.lux",
+              "type": "Eye Comfort",
+              "icon": "🌅",
+              "url": "https://justgetflux.com/dlwin.html"
+            },
+            {
+              "id": "sharex",
+              "name": "ShareX",
+              "type": "Screenshot Tool",
+              "icon": "📸",
+              "url": "https://github.com/ShareX/ShareX/releases/latest/download/ShareX-16.1.0-setup.exe"
+            },
+            {
+              "id": "greenshot",
+              "name": "Greenshot",
+              "type": "Screenshot Tool",
+              "icon": "📷",
+              "url": "https://github.com/greenshot/greenshot/releases/latest/download/Greenshot-RELEASE-1.3.274.exe"
+            },
+            {
+              "id": "ditto",
+              "name": "Ditto Clipboard",
+              "type": "Clipboard Manager",
+              "icon": "📋",
+              "url": "https://sourceforge.net/projects/ditto-cp/files/latest/download"
+            },
+            {
+              "id": "everything",
+              "name": "Everything",
+              "type": "File Search",
+              "icon": "🔍",
+              "url": "https://www.voidtools.com/Everything-1.4.1.1026.x64-Setup.exe"
+            },
+            {
+              "id": "treesizefree",
+              "name": "TreeSize Free",
+              "type": "Disk Usage Analyzer",
+              "icon": "🌳",
+              "url": "https://www.jam-software.com/customers/downloadTrial.php?article_no=80&language=EN"
+            },
+            {
+              "id": "winscp",
+              "name": "WinSCP",
+              "type": "FTP/SFTP Client",
+              "icon": "🚢",
+              "url": "https://winscp.net/download/WinSCP-6.3.4-Setup.exe"
+            },
+            {
+              "id": "filezilla",
+              "name": "FileZilla",
+              "type": "FTP Client",
+              "icon": "📡",
+              "url": "https://download.filezilla-project.org/client/FileZilla_3.67.1_win64-setup.exe"
+            }
           ]
         },
         {
           "id": "graphics",
           "label": "Graphics & Design",
           "items": [
-            { "id": "gimp", "name": "GIMP", "type": "Image Editor", "icon": "🎨", "url": "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.38-setup.exe" },
-            { "id": "paintnet", "name": "Paint.NET", "type": "Image Editor", "icon": "🖼️", "url": "https://github.com/paintdotnet/release/releases/latest/download/paint.net.5.1.2.install.x64.exe" },
-            { "id": "inkscape", "name": "Inkscape", "type": "Vector Editor", "icon": "✏️", "url": "https://inkscape.org/gallery/item/44616/inkscape-1.3.2_2023-11-25_091e20e-x64.exe" },
-            { "id": "krita", "name": "Krita", "type": "Digital Painting", "icon": "🖌️", "url": "https://download.kde.org/stable/krita/5.2.3/krita-5.2.3-setup.exe" },
-            { "id": "blender", "name": "Blender", "type": "3D Modeling", "icon": "🔶", "url": "https://download.blender.org/release/Blender4.2/blender-4.2.0-windows-x64.msi" },
-            { "id": "figma", "name": "Figma", "type": "UI Design", "icon": "🎯", "url": "https://desktop.figma.com/win/FigmaSetup.exe" },
-            { "id": "photopea", "name": "Photopea Desktop", "type": "Image Editor", "icon": "🖱️", "url": "https://www.photopea.com" },
-            { "id": "xnview", "name": "XnView MP", "type": "Image Viewer", "icon": "🖼️", "url": "https://download.xnview.com/XnViewMP-win-x64.exe" },
-            { "id": "irfanview", "name": "IrfanView", "type": "Image Viewer", "icon": "👁️", "url": "https://www.irfanview.com/files/iview470_x64_setup.exe" },
-            { "id": "rawtherapee", "name": "RawTherapee", "type": "RAW Photo Editor", "icon": "📷", "url": "https://rawtherapee.com/shared/builds/windows/RawTherapee_5.10_WinVista_64.exe" },
-            { "id": "darktable", "name": "darktable", "type": "RAW Photo Editor", "icon": "🌑", "url": "https://github.com/darktable-org/darktable/releases/latest/download/darktable-4.8.1-win64.exe" },
-            { "id": "openscad", "name": "OpenSCAD", "type": "3D CAD", "icon": "📐", "url": "https://files.openscad.org/OpenSCAD-2021.01-x86-64.exe" }
+            {
+              "id": "gimp",
+              "name": "GIMP",
+              "type": "Image Editor",
+              "icon": "🎨",
+              "url": "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.38-setup.exe"
+            },
+            {
+              "id": "paintnet",
+              "name": "Paint.NET",
+              "type": "Image Editor",
+              "icon": "🖼️",
+              "url": "https://github.com/paintdotnet/release/releases/latest/download/paint.net.5.1.2.install.x64.exe"
+            },
+            {
+              "id": "inkscape",
+              "name": "Inkscape",
+              "type": "Vector Editor",
+              "icon": "✏️",
+              "url": "https://inkscape.org/gallery/item/44616/inkscape-1.3.2_2023-11-25_091e20e-x64.exe"
+            },
+            {
+              "id": "krita",
+              "name": "Krita",
+              "type": "Digital Painting",
+              "icon": "🖌️",
+              "url": "https://download.kde.org/stable/krita/5.2.3/krita-5.2.3-setup.exe"
+            },
+            {
+              "id": "blender",
+              "name": "Blender",
+              "type": "3D Modeling",
+              "icon": "🔶",
+              "url": "https://download.blender.org/release/Blender4.2/blender-4.2.0-windows-x64.msi"
+            },
+            {
+              "id": "figma",
+              "name": "Figma",
+              "type": "UI Design",
+              "icon": "🎯",
+              "url": "https://desktop.figma.com/win/FigmaSetup.exe"
+            },
+            {
+              "id": "photopea",
+              "name": "Photopea Desktop",
+              "type": "Image Editor",
+              "icon": "🖱️",
+              "url": "https://www.photopea.com"
+            },
+            {
+              "id": "xnview",
+              "name": "XnView MP",
+              "type": "Image Viewer",
+              "icon": "🖼️",
+              "url": "https://download.xnview.com/XnViewMP-win-x64.exe"
+            },
+            {
+              "id": "irfanview",
+              "name": "IrfanView",
+              "type": "Image Viewer",
+              "icon": "👁️",
+              "url": "https://www.irfanview.com/files/iview470_x64_setup.exe"
+            },
+            {
+              "id": "rawtherapee",
+              "name": "RawTherapee",
+              "type": "RAW Photo Editor",
+              "icon": "📷",
+              "url": "https://rawtherapee.com/shared/builds/windows/RawTherapee_5.10_WinVista_64.exe"
+            },
+            {
+              "id": "darktable",
+              "name": "darktable",
+              "type": "RAW Photo Editor",
+              "icon": "🌑",
+              "url": "https://github.com/darktable-org/darktable/releases/latest/download/darktable-4.8.1-win64.exe"
+            },
+            {
+              "id": "openscad",
+              "name": "OpenSCAD",
+              "type": "3D CAD",
+              "icon": "📐",
+              "url": "https://files.openscad.org/OpenSCAD-2021.01-x86-64.exe"
+            }
           ]
         },
         {
           "id": "security",
           "label": "Security & Privacy",
           "items": [
-            { "id": "malwarebytes", "name": "Malwarebytes", "type": "Antimalware", "icon": "🛡️", "url": "https://downloads.malwarebytes.com/file/mb5_installer" },
-            { "id": "kaspersky", "name": "Kaspersky Free", "type": "Antivirus", "icon": "🟢", "url": "https://www.kaspersky.com/downloads/free-antivirus" },
-            { "id": "defender", "name": "Windows Defender Offline", "type": "Antivirus", "icon": "🪟", "url": "https://go.microsoft.com/fwlink/?LinkId=234368" },
-            { "id": "hitmanpro", "name": "HitmanPro", "type": "Malware Scanner", "icon": "🔫", "url": "https://dl.surfright.nl/HitmanPro_x64.exe" },
-            { "id": "emsisoft", "name": "Emsisoft Emergency Kit", "type": "Malware Scanner (Portable)", "icon": "🚨", "url": "https://dl.emsisoft.com/EmsisoftEmergencyKit.exe" },
-            { "id": "adwcleaner", "name": "AdwCleaner", "type": "Adware Remover", "icon": "🧼", "url": "https://downloads.malwarebytes.com/file/adwcleaner" },
-            { "id": "bitdefenderfree", "name": "Bitdefender Free", "type": "Antivirus", "icon": "🔵", "url": "https://www.bitdefender.com/solutions/free.html" },
-            { "id": "bitwarden", "name": "Bitwarden", "type": "Password Manager", "icon": "🔑", "url": "https://vault.bitwarden.com/download/?app=desktop&platform=windows" },
-            { "id": "keepass", "name": "KeePass", "type": "Password Manager", "icon": "🗝️", "url": "https://sourceforge.net/projects/keepass/files/latest/download" },
-            { "id": "veracrypt", "name": "VeraCrypt", "type": "Encryption", "icon": "🔐", "url": "https://launchpad.net/veracrypt/trunk/1.26.14/+download/VeraCrypt_Setup_x64_1.26.14.exe" },
-            { "id": "protonvpn", "name": "ProtonVPN", "type": "VPN", "icon": "🌐", "url": "https://protonvpn.com/download/ProtonVPN_win_v3.4.0.exe" },
-            { "id": "mullvad", "name": "Mullvad VPN", "type": "VPN", "icon": "🔒", "url": "https://mullvad.net/download/app/exe/latest/windows" }
+            {
+              "id": "malwarebytes",
+              "name": "Malwarebytes",
+              "type": "Antimalware",
+              "icon": "🛡️",
+              "url": "https://downloads.malwarebytes.com/file/mb5_installer"
+            },
+            {
+              "id": "kaspersky",
+              "name": "Kaspersky Free",
+              "type": "Antivirus",
+              "icon": "🟢",
+              "url": "https://www.kaspersky.com/downloads/free-antivirus"
+            },
+            {
+              "id": "defender",
+              "name": "Windows Defender Offline",
+              "type": "Antivirus",
+              "icon": "🪟",
+              "url": "https://go.microsoft.com/fwlink/?LinkId=234368"
+            },
+            {
+              "id": "hitmanpro",
+              "name": "HitmanPro",
+              "type": "Malware Scanner",
+              "icon": "🔫",
+              "url": "https://dl.surfright.nl/HitmanPro_x64.exe"
+            },
+            {
+              "id": "emsisoft",
+              "name": "Emsisoft Emergency Kit",
+              "type": "Malware Scanner (Portable)",
+              "icon": "🚨",
+              "url": "https://dl.emsisoft.com/EmsisoftEmergencyKit.exe"
+            },
+            {
+              "id": "adwcleaner",
+              "name": "AdwCleaner",
+              "type": "Adware Remover",
+              "icon": "🧼",
+              "url": "https://downloads.malwarebytes.com/file/adwcleaner"
+            },
+            {
+              "id": "bitdefenderfree",
+              "name": "Bitdefender Free",
+              "type": "Antivirus",
+              "icon": "🔵",
+              "url": "https://www.bitdefender.com/solutions/free.html"
+            },
+            {
+              "id": "bitwarden",
+              "name": "Bitwarden",
+              "type": "Password Manager",
+              "icon": "🔑",
+              "url": "https://vault.bitwarden.com/download/?app=desktop&platform=windows"
+            },
+            {
+              "id": "keepass",
+              "name": "KeePass",
+              "type": "Password Manager",
+              "icon": "🗝️",
+              "url": "https://sourceforge.net/projects/keepass/files/latest/download"
+            },
+            {
+              "id": "veracrypt",
+              "name": "VeraCrypt",
+              "type": "Encryption",
+              "icon": "🔐",
+              "url": "https://launchpad.net/veracrypt/trunk/1.26.14/+download/VeraCrypt_Setup_x64_1.26.14.exe"
+            },
+            {
+              "id": "protonvpn",
+              "name": "ProtonVPN",
+              "type": "VPN",
+              "icon": "🌐",
+              "url": "https://protonvpn.com/download/ProtonVPN_win_v3.4.0.exe"
+            },
+            {
+              "id": "mullvad",
+              "name": "Mullvad VPN",
+              "type": "VPN",
+              "icon": "🔒",
+              "url": "https://mullvad.net/download/app/exe/latest/windows"
+            }
           ]
         },
         {
           "id": "ai",
           "label": "AI Tools",
           "items": [
-            { "id": "claude", "name": "Claude Desktop", "type": "AI Assistant", "icon": "🤖", "url": "https://claude.ai/download" },
-            { "id": "chatgpt", "name": "ChatGPT Desktop", "type": "AI Assistant", "icon": "💬", "url": "https://persistent.oaistatic.com/sidekick/public/ChatGPTSetup.exe" },
-            { "id": "lmstudio", "name": "LM Studio", "type": "Local LLM Runner", "icon": "🧪", "url": "https://releases.lmstudio.ai/windows/x86/0.3.5/LM-Studio-0.3.5-Setup.exe" },
-            { "id": "ollama", "name": "Ollama", "type": "Local LLM Runner", "icon": "🦙", "url": "https://ollama.com/download/OllamaSetup.exe" },
-            { "id": "jan", "name": "Jan", "type": "Local LLM Runner", "icon": "🌸", "url": "https://github.com/janhq/jan/releases/latest/download/jan-win-x64.exe" },
-            { "id": "gpt4all", "name": "GPT4All", "type": "Local LLM Runner", "icon": "🌐", "url": "https://gpt4all.io/installers/gpt4all-installer-win64.exe" },
-            { "id": "aidream", "name": "Stability Matrix", "type": "Stable Diffusion Launcher", "icon": "🎨", "url": "https://github.com/LykosAI/StabilityMatrix/releases/latest/download/StabilityMatrix-win-x64.exe" },
-            { "id": "automatic1111", "name": "AUTOMATIC1111 (SD WebUI)", "type": "Stable Diffusion", "icon": "🖼️", "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/latest" },
-            { "id": "comfyui", "name": "ComfyUI Desktop", "type": "Stable Diffusion", "icon": "🎭", "url": "https://github.com/Comfy-Org/desktop/releases/latest/download/ComfyUI_windows_installer.exe" }
+            {
+              "id": "claude",
+              "name": "Claude Desktop",
+              "type": "AI Assistant",
+              "icon": "🤖",
+              "url": "https://claude.ai/download"
+            },
+            {
+              "id": "chatgpt",
+              "name": "ChatGPT Desktop",
+              "type": "AI Assistant",
+              "icon": "💬",
+              "url": "https://persistent.oaistatic.com/sidekick/public/ChatGPTSetup.exe"
+            },
+            {
+              "id": "lmstudio",
+              "name": "LM Studio",
+              "type": "Local LLM Runner",
+              "icon": "🧪",
+              "url": "https://releases.lmstudio.ai/windows/x86/0.3.5/LM-Studio-0.3.5-Setup.exe"
+            },
+            {
+              "id": "ollama",
+              "name": "Ollama",
+              "type": "Local LLM Runner",
+              "icon": "🦙",
+              "url": "https://ollama.com/download/OllamaSetup.exe"
+            },
+            {
+              "id": "jan",
+              "name": "Jan",
+              "type": "Local LLM Runner",
+              "icon": "🌸",
+              "url": "https://github.com/janhq/jan/releases/latest/download/jan-win-x64.exe"
+            },
+            {
+              "id": "gpt4all",
+              "name": "GPT4All",
+              "type": "Local LLM Runner",
+              "icon": "🌐",
+              "url": "https://gpt4all.io/installers/gpt4all-installer-win64.exe"
+            },
+            {
+              "id": "aidream",
+              "name": "Stability Matrix",
+              "type": "Stable Diffusion Launcher",
+              "icon": "🎨",
+              "url": "https://github.com/LykosAI/StabilityMatrix/releases/latest/download/StabilityMatrix-win-x64.exe"
+            },
+            {
+              "id": "automatic1111",
+              "name": "AUTOMATIC1111 (SD WebUI)",
+              "type": "Stable Diffusion",
+              "icon": "🖼️",
+              "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/latest"
+            },
+            {
+              "id": "comfyui",
+              "name": "ComfyUI Desktop",
+              "type": "Stable Diffusion",
+              "icon": "🎭",
+              "url": "https://github.com/Comfy-Org/desktop/releases/latest/download/ComfyUI_windows_installer.exe"
+            }
           ]
         }
       ]
@@ -215,16 +1019,252 @@
     {
       "id": "languages",
       "label": "Languages & Runtimes",
-      "groups": [
+      "langs": [
         {
-          "id": "runtimes",
-          "label": "Runtimes",
-          "items": [
-            { "id": "nodejs", "name": "Node.js LTS", "type": "JavaScript Runtime", "icon": "🟢", "url": "https://nodejs.org/dist/v20.17.0/node-v20.17.0-x64.msi" },
-            { "id": "python", "name": "Python 3.12", "type": "Programming Language", "icon": "🐍", "url": "https://www.python.org/ftp/python/3.12.4/python-3.12.4-amd64.exe" },
-            { "id": "dotnet", "name": ".NET SDK 8", "type": "SDK", "icon": "🔷", "url": "https://download.visualstudio.microsoft.com/download/pr/b6f19ef3-52ca-40b1-b78b-0712d3c8bf4d/e56f57b90df7de5c0cf81a60a64bdcef/dotnet-sdk-8.0.303-win-x64.exe" },
-            { "id": "java", "name": "Java JDK 21", "type": "JDK", "icon": "☕", "url": "https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe" },
-            { "id": "rust", "name": "Rust (rustup)", "type": "Programming Language", "icon": "🦀", "url": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe" }
+          "id": "python",
+          "name": "Python",
+          "icon": "🐍",
+          "desc": "Język ogólnego przeznaczenia",
+          "versioned": "True",
+          "groups": [
+            {
+              "label": "Python 3.13",
+              "versions": [
+                { "id": "py3131", "label": "Python 3.13.1", "winget": "Python.Python.3.13" },
+                { "id": "py3130", "label": "Python 3.13.0", "winget": "Python.Python.3.13" }
+              ]
+            },
+            {
+              "label": "Python 3.12",
+              "versions": [
+                { "id": "py3125", "label": "Python 3.12.5", "winget": "Python.Python.3.12" },
+                { "id": "py3124", "label": "Python 3.12.4", "winget": "Python.Python.3.12" },
+                { "id": "py3123", "label": "Python 3.12.3", "winget": "Python.Python.3.12" }
+              ]
+            },
+            {
+              "label": "Python 3.11",
+              "versions": [
+                { "id": "py3119", "label": "Python 3.11.9", "winget": "Python.Python.3.11" },
+                { "id": "py3118", "label": "Python 3.11.8", "winget": "Python.Python.3.11" }
+              ]
+            },
+            {
+              "label": "Python 3.10",
+              "versions": [
+                { "id": "py3104", "label": "Python 3.10.14", "winget": "Python.Python.3.10" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nodejs",
+          "name": "Node.js",
+          "icon": "🟢",
+          "desc": "JavaScript Runtime (V8)",
+          "versioned": "True",
+          "groups": [
+            {
+              "label": "Node.js 22 (Current)",
+              "versions": [
+                { "id": "node224", "label": "Node.js 22.4.0", "winget": "OpenJS.NodeJS" },
+                { "id": "node223", "label": "Node.js 22.3.0", "winget": "OpenJS.NodeJS" }
+              ]
+            },
+            {
+              "label": "Node.js 20 (LTS)",
+              "versions": [
+                { "id": "node2015", "label": "Node.js 20.15.0", "winget": "OpenJS.NodeJS.LTS" },
+                { "id": "node2014", "label": "Node.js 20.14.0", "winget": "OpenJS.NodeJS.LTS" },
+                { "id": "node2013", "label": "Node.js 20.13.1", "winget": "OpenJS.NodeJS.LTS" }
+              ]
+            },
+            {
+              "label": "Node.js 18 (LTS Maintenance)",
+              "versions": [
+                { "id": "node1820", "label": "Node.js 18.20.3", "winget": "OpenJS.NodeJS.18" },
+                { "id": "node1819", "label": "Node.js 18.19.1", "winget": "OpenJS.NodeJS.18" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dotnet",
+          "name": ".NET SDK",
+          "icon": "🔷",
+          "desc": "Microsoft .NET — C#, F#, VB",
+          "versioned": "True",
+          "groups": [
+            {
+              "label": ".NET 9 (Preview)",
+              "versions": [
+                { "id": "dotnet9rc1", "label": ".NET 9 RC1", "winget": "Microsoft.DotNet.SDK.9" }
+              ]
+            },
+            {
+              "label": ".NET 8 (LTS)",
+              "versions": [
+                { "id": "dotnet803", "label": ".NET SDK 8.0.303", "winget": "Microsoft.DotNet.SDK.8" },
+                { "id": "dotnet802", "label": ".NET SDK 8.0.302", "winget": "Microsoft.DotNet.SDK.8" },
+                { "id": "dotnet801", "label": ".NET SDK 8.0.301", "winget": "Microsoft.DotNet.SDK.8" }
+              ]
+            },
+            {
+              "label": ".NET 7",
+              "versions": [
+                { "id": "dotnet7", "label": ".NET SDK 7.0.410", "winget": "Microsoft.DotNet.SDK.7" }
+              ]
+            },
+            {
+              "label": ".NET 6 (LTS)",
+              "versions": [
+                { "id": "dotnet6", "label": ".NET SDK 6.0.425", "winget": "Microsoft.DotNet.SDK.6" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "java",
+          "name": "Java JDK",
+          "icon": "☕",
+          "desc": "Oracle / Eclipse Temurin JDK",
+          "versioned": "True",
+          "groups": [
+            {
+              "label": "JDK 21 (LTS)",
+              "versions": [
+                { "id": "jdk21", "label": "JDK 21.0.4 (Oracle)", "winget": "Oracle.JDK.21" },
+                { "id": "jdk21t", "label": "JDK 21 (Eclipse Temurin)", "winget": "EclipseAdoptium.Temurin.21.JDK" }
+              ]
+            },
+            {
+              "label": "JDK 17 (LTS)",
+              "versions": [
+                { "id": "jdk17", "label": "JDK 17.0.12 (Oracle)", "winget": "Oracle.JDK.17" },
+                { "id": "jdk17t", "label": "JDK 17 (Eclipse Temurin)", "winget": "EclipseAdoptium.Temurin.17.JDK" }
+              ]
+            },
+            {
+              "label": "JDK 11 (LTS)",
+              "versions": [
+                { "id": "jdk11t", "label": "JDK 11 (Eclipse Temurin)", "winget": "EclipseAdoptium.Temurin.11.JDK" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rust",
+          "name": "Rust",
+          "icon": "🦀",
+          "desc": "Systems language — instaluje rustup (zarządza wersjami)",
+          "versioned": "False",
+          "single": { "id": "rust_single", "label": "Rust (rustup installer)", "winget": "Rustlang.Rustup" }
+        },
+        {
+          "id": "golang",
+          "name": "Go",
+          "icon": "🐹",
+          "desc": "Google Go Language",
+          "versioned": "True",
+          "groups": [
+            {
+              "label": "Go 1.22",
+              "versions": [
+                { "id": "go1226", "label": "Go 1.22.6", "winget": "GoLang.Go" },
+                { "id": "go1225", "label": "Go 1.22.5", "winget": "GoLang.Go" }
+              ]
+            },
+            {
+              "label": "Go 1.21",
+              "versions": [
+                { "id": "go1213", "label": "Go 1.21.13", "winget": "GoLang.Go.1.21" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ruby",
+          "name": "Ruby",
+          "icon": "💎",
+          "desc": "Ruby — instaluje RubyInstaller",
+          "versioned": "True",
+          "groups": [
+            {
+              "label": "Ruby 3.3",
+              "versions": [
+                { "id": "ruby333", "label": "Ruby 3.3.4+DevKit", "winget": "RubyInstallerTeam.RubyWithDevKit.3.3" }
+              ]
+            },
+            {
+              "label": "Ruby 3.2",
+              "versions": [
+                { "id": "ruby324", "label": "Ruby 3.2.4+DevKit", "winget": "RubyInstallerTeam.RubyWithDevKit.3.2" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "php",
+          "name": "PHP",
+          "icon": "🐘",
+          "desc": "PHP — server-side scripting",
+          "versioned": "True",
+          "groups": [
+            {
+              "label": "PHP 8.3",
+              "versions": [
+                { "id": "php83", "label": "PHP 8.3", "winget": "PHP.PHP.8.3" }
+              ]
+            },
+            {
+              "label": "PHP 8.2",
+              "versions": [
+                { "id": "php82", "label": "PHP 8.2", "winget": "PHP.PHP.8.2" }
+              ]
+            },
+            {
+              "label": "PHP 8.1",
+              "versions": [
+                { "id": "php81", "label": "PHP 8.1", "winget": "PHP.PHP.8.1" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin",
+          "name": "Kotlin",
+          "icon": "🟣",
+          "desc": "JVM language by JetBrains — instaluje przez winget",
+          "versioned": "False",
+          "single": { "id": "kotlin_single", "label": "Kotlin Compiler (latest)", "winget": "JetBrains.Kotlin.Compiler" }
+        },
+        {
+          "id": "dart",
+          "name": "Dart / Flutter",
+          "icon": "🎯",
+          "desc": "Dart SDK + Flutter SDK",
+          "versioned": "False",
+          "single": { "id": "dart_single", "label": "Flutter SDK (includes Dart)", "winget": "Google.Flutter" }
+        },
+        {
+          "id": "powershell",
+          "name": "PowerShell",
+          "icon": "🖥️",
+          "desc": "PowerShell 7+ (cross-platform)",
+          "versioned": "True",
+          "groups": [
+            {
+              "label": "PowerShell 7.4 (LTS)",
+              "versions": [
+                { "id": "ps74", "label": "PowerShell 7.4.4", "winget": "Microsoft.PowerShell" }
+              ]
+            },
+            {
+              "label": "PowerShell 7.3",
+              "versions": [
+                { "id": "ps73", "label": "PowerShell 7.3.12", "winget": "Microsoft.PowerShell.Preview" }
+              ]
+            }
           ]
         }
       ]
@@ -237,9 +1277,27 @@
           "id": "linux",
           "label": "Linux Distros",
           "items": [
-            { "id": "ubuntu", "name": "Ubuntu 24.04 LTS", "type": "Linux Distro", "icon": "🐧", "url": "https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso" },
-            { "id": "debian", "name": "Debian 12", "type": "Linux Distro", "icon": "🌀", "url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.6.0-amd64-netinst.iso" },
-            { "id": "arch", "name": "Arch Linux", "type": "Linux Distro", "icon": "⚡", "url": "https://geo.mirror.pkgbuild.com/iso/latest/archlinux-x86_64.iso" }
+            {
+              "id": "ubuntu",
+              "name": "Ubuntu 24.04 LTS",
+              "type": "Linux Distro",
+              "icon": "🐧",
+              "url": "https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso"
+            },
+            {
+              "id": "debian",
+              "name": "Debian 12",
+              "type": "Linux Distro",
+              "icon": "🌀",
+              "url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.6.0-amd64-netinst.iso"
+            },
+            {
+              "id": "arch",
+              "name": "Arch Linux",
+              "type": "Linux Distro",
+              "icon": "⚡",
+              "url": "https://geo.mirror.pkgbuild.com/iso/latest/archlinux-x86_64.iso"
+            }
           ]
         }
       ]
