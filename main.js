@@ -233,7 +233,15 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
-    document.getElementById(btn.dataset.tab).classList.add('active');
+    const tabId = btn.dataset.tab;
+    document.getElementById(tabId).classList.add('active');
+    if (tabId === 'sejf' && typeof initVault === 'function') {
+      // Inicjalizuj tylko jeśli sejf jest pusty (np. pierwsze otwarcie)
+      const sec = document.getElementById('sejf');
+      if (!sec.querySelector('.vault-lock-screen') && !sec.querySelector('.vault-tiles-grid')) {
+        initVault();
+      }
+    }
   });
 });
 

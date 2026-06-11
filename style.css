@@ -433,3 +433,298 @@ body { display: flex; min-height: 100vh; }
   .lang-header { padding: 12px 14px; }
   .lang-single-row { padding: 0 14px 12px; }
 }
+
+/* ══════════════════════════════════════════════
+   SEJF
+   ══════════════════════════════════════════════ */
+
+/* ── Ekran blokady ── */
+.vault-lock-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.vault-lock-icon {
+  font-size: 64px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 24px var(--accent-glow));
+}
+
+.vault-lock-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.vault-lock-sub {
+  font-size: 15px;
+  color: var(--text-2);
+  margin-bottom: 32px;
+}
+
+.vault-input-wrap {
+  display: flex;
+  gap: 0;
+  width: 100%;
+  max-width: 440px;
+  border: 1px solid var(--border-2);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color .2s, box-shadow .2s;
+}
+
+.vault-input-wrap:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+.vault-password-input {
+  flex: 1;
+  background: var(--bg-2);
+  border: none;
+  color: var(--text);
+  font-size: 15px;
+  font-family: inherit;
+  padding: 14px 18px;
+  outline: none;
+  letter-spacing: 0.05em;
+}
+
+.vault-password-input::placeholder { color: var(--text-3); letter-spacing: 0; }
+
+.vault-unlock-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 22px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .2s;
+  white-space: nowrap;
+}
+
+.vault-unlock-btn:hover { background: var(--accent-2); }
+.vault-unlock-btn:disabled { opacity: .5; cursor: not-allowed; }
+.vault-unlock-btn svg { width: 16px; height: 16px; }
+
+.vault-error {
+  font-size: 13px;
+  color: var(--accent-2);
+  margin-top: 12px;
+  min-height: 20px;
+}
+
+.vault-no-blob {
+  margin-top: 24px;
+  font-size: 13px;
+  color: var(--text-3);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 18px;
+  max-width: 440px;
+}
+
+/* Animacja trzęsienia przy złym haśle */
+@keyframes vault-shake {
+  0%,100%{transform:translateX(0)}
+  20%{transform:translateX(-8px)}
+  40%{transform:translateX(8px)}
+  60%{transform:translateX(-5px)}
+  80%{transform:translateX(5px)}
+}
+.vault-input-wrap.shake { animation: vault-shake .5s ease; }
+
+/* Spinner */
+.vault-spinner {
+  display: inline-block;
+  width: 14px; height: 14px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: vault-spin .7s linear infinite;
+}
+@keyframes vault-spin { to { transform: rotate(360deg); } }
+
+/* ── Górny pasek (odblokowany) ── */
+.vault-header-bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.vault-lock-btn-sm {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 18px;
+  background: var(--bg-3);
+  border: 1px solid var(--border-2);
+  border-radius: var(--radius-sm);
+  color: var(--text-2);
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .2s;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.vault-lock-btn-sm:hover { border-color: var(--accent); color: var(--accent-2); background: var(--accent-dim); }
+.vault-lock-btn-sm svg { width: 15px; height: 15px; }
+
+/* ── Siatka kafelków ── */
+.vault-tiles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.vault-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 36px 20px;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all .2s ease;
+  text-align: center;
+  user-select: none;
+}
+
+.vault-tile:hover {
+  border-color: var(--accent);
+  background: var(--bg-3);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 0 20px var(--accent-glow);
+}
+
+.vault-tile-icon { font-size: 48px; line-height: 1; }
+.vault-tile-name { font-size: 16px; font-weight: 700; color: var(--text); }
+.vault-tile-count { font-size: 12px; color: var(--text-3); }
+
+/* ── Widok kategorii ── */
+.vault-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-2);
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all .2s;
+  margin-bottom: 24px;
+}
+.vault-back-btn:hover { border-color: var(--border-2); color: var(--text); }
+.vault-back-btn svg { width: 16px; height: 16px; }
+
+.vault-cat-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.vault-cat-icon { font-size: 32px; }
+.vault-cat-title { font-size: 22px; font-weight: 700; }
+
+.vault-entries-list { display: flex; flex-direction: column; gap: 14px; }
+
+/* ── Karta wpisu ── */
+.vault-entry-card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color .2s;
+}
+.vault-entry-card:hover { border-color: var(--border-2); }
+
+.vault-entry-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--bg-3);
+  border-bottom: 1px solid var(--border);
+}
+.vault-entry-icon { font-size: 22px; }
+.vault-entry-title { font-size: 16px; font-weight: 700; color: var(--text); }
+
+.vault-entry-fields { padding: 8px 0; }
+
+.vault-field {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 9px 20px;
+  border-bottom: 1px solid var(--border);
+  transition: background .15s;
+}
+.vault-field:last-child { border-bottom: none; }
+.vault-field:hover { background: var(--bg-3); }
+
+.vault-field-label {
+  font-size: 12px;
+  color: var(--text-3);
+  min-width: 130px;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+.vault-field-value {
+  font-size: 14px;
+  color: var(--text);
+  font-family: 'Consolas', monospace;
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  transition: all .15s;
+  position: relative;
+  word-break: break-all;
+}
+
+.vault-field-value:hover {
+  background: var(--bg-4);
+  border-color: var(--border-2);
+}
+
+.vault-field-value.copied {
+  background: rgba(39,174,96,0.12);
+  border-color: rgba(39,174,96,0.3);
+  color: #2ecc71;
+}
+
+.vault-copy-hint {
+  display: none;
+  font-size: 10px;
+  color: var(--text-3);
+  margin-left: 8px;
+  font-family: inherit;
+  font-style: italic;
+}
+.vault-field-value:hover .vault-copy-hint { display: inline; }
+.vault-field-value.copied .vault-copy-hint { display: none; }
